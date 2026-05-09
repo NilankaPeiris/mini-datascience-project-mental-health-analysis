@@ -1,0 +1,4 @@
+feature,chi_square_statistic,p_value,degrees_of_freedom,significant
+gender,0.2551540903632945,0.6134690795473368,1,No
+platform_usage,0.45481412537972454,0.7965964515888357,2,No
+social_interaction_level,0.4571230404927918,0.795677345432395,2,No
