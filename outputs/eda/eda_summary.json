@@ -1,0 +1,35 @@
+{
+    "rows": 1200,
+    "columns": 13,
+    "numeric_columns": [
+        "age",
+        "daily_social_media_hours",
+        "sleep_hours",
+        "screen_time_before_sleep",
+        "academic_performance",
+        "physical_activity",
+        "stress_level",
+        "anxiety_level",
+        "addiction_level"
+    ],
+    "categorical_columns": [
+        "gender",
+        "platform_usage",
+        "social_interaction_level"
+    ],
+    "target_column": "depression_label",
+    "target_data_type": "categorical",
+    "target_categories": [
+        0,
+        1
+    ],
+    "target_distribution": {
+        "0": 1169,
+        "1": 31
+    },
+    "target_distribution_pct": {
+        "0": 97.41666666666666,
+        "1": 2.5833333333333335
+    },
+    "note": "Because the depressed class is very small, model evaluation should focus on recall, F1, ROC-AUC, and PR-AUC instead of accuracy alone."
+}
