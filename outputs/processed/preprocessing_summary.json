@@ -1,0 +1,49 @@
+{
+    "original_shape": [
+        1200,
+        13
+    ],
+    "cleaned_shape": [
+        1200,
+        13
+    ],
+    "duplicate_rows_removed": 0,
+    "missing_values_before_imputation": {
+        "age": 0,
+        "gender": 0,
+        "daily_social_media_hours": 0,
+        "platform_usage": 0,
+        "sleep_hours": 0,
+        "screen_time_before_sleep": 0,
+        "academic_performance": 0,
+        "physical_activity": 0,
+        "social_interaction_level": 0,
+        "stress_level": 0,
+        "anxiety_level": 0,
+        "addiction_level": 0,
+        "depression_label": 0
+    },
+    "numeric_columns": [
+        "age",
+        "daily_social_media_hours",
+        "sleep_hours",
+        "screen_time_before_sleep",
+        "academic_performance",
+        "physical_activity",
+        "stress_level",
+        "anxiety_level",
+        "addiction_level",
+        "depression_label"
+    ],
+    "categorical_columns": [
+        "gender",
+        "platform_usage",
+        "social_interaction_level"
+    ],
+    "target_column": "depression_label",
+    "target_distribution": {
+        "0": 1169,
+        "1": 31
+    },
+    "cleaned_data_path": "outputs\\processed\\teen_mental_health_cleaned.csv"
+}

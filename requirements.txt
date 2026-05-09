@@ -1,0 +1,7 @@
+pandas
+kagglehub
+python-dotenv
+numpy
+matplotlib
+scikit-learn
+joblib
