@@ -1,0 +1,18 @@
+{
+    "class_imbalance_handling": "Balanced sample weights were calculated from the training target distribution using compute_sample_weight(class_weight='balanced'). These weights were passed to every model during fit, so the minority depressed class receives higher importance during training.",
+    "model_selection_approach": "Three models were trained using the same train/test split and same preprocessing pipeline. The best model was selected mainly by PR-AUC because the dataset is highly imbalanced. F1-score and recall were also considered as secondary indicators.",
+    "best_model": "gradient_boosting",
+    "selection_metric": "pr_auc_average_precision",
+    "class_distribution": {
+        "total_rows": 1200,
+        "train_rows": 960,
+        "test_rows": 240,
+        "positive_class_total_depressed": 31,
+        "negative_class_total_not_depressed": 1169,
+        "positive_class_train_depressed": 25,
+        "negative_class_train_not_depressed": 935,
+        "positive_class_test_depressed": 6,
+        "negative_class_test_not_depressed": 234
+    },
+    "important_note": "Accuracy can be misleading for this dataset because the depressed class is much smaller than the not depressed class. Discuss precision, recall, F1-score, ROC-AUC, PR-AUC, and confusion matrix in the report."
+}
