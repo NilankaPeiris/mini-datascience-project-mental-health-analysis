@@ -1,7 +1,7 @@
 {
-    "rows": 1200,
-    "columns": 13,
-    "numeric_columns": [
+    "total_rows": 1200,
+    "total_columns": 13,
+    "numeric_features": [
         "age",
         "daily_social_media_hours",
         "sleep_hours",
@@ -12,7 +12,7 @@
         "anxiety_level",
         "addiction_level"
     ],
-    "categorical_columns": [
+    "categorical_features": [
         "gender",
         "platform_usage",
         "social_interaction_level"
@@ -28,8 +28,13 @@
         "1": 31
     },
     "target_distribution_pct": {
-        "0": 97.41666666666666,
-        "1": 2.5833333333333335
+        "0": 97.42,
+        "1": 2.58
     },
-    "note": "Because the depressed class is very small, model evaluation should focus on recall, F1, ROC-AUC, and PR-AUC instead of accuracy alone."
+    "analysis_focus": "Depression level vs other attributes (bivariate analysis)",
+    "statistical_tests_used": [
+        "ANOVA for numeric features",
+        "Chi-square for categorical features"
+    ],
+    "note": "Comprehensive analysis of how depression correlates with each feature. Significant features (p < 0.05) are strong predictors."
 }
